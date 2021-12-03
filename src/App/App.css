@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #252525;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+p,
+pre {
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+a:focus,
+a:active,
+*:focus {
+  outline: 0 !important;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.active {
+  color: #ba0505 !important;
+}
